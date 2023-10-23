@@ -1,0 +1,5 @@
+f=open("sita.txt","w")
+f.write("hi")
+f.write("bye")
+f.write("good night")
+f.write("see u")

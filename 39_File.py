@@ -1,0 +1,5 @@
+f=open("sita.txt","r")
+f1=open("gita.txt","w")
+f1.write(f.read())
+f.close()
+f1.close()

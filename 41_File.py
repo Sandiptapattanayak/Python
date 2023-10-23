@@ -1,0 +1,8 @@
+f=open("sita.txt","a")
+f.write("Riya")
+print(f.tell())
+f.seek(5)
+f=open("sita.txt","r")
+print(f.read())
+print(f.tell())
+f.close()
