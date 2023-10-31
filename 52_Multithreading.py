@@ -1,12 +1,11 @@
-# How to set a thread's name 
-
+#How to know thread's name
 
 from threading import *
 
 def fun1():
+	print(current_thread().name)
 	for i in range(5):
 		print("Lira")
-	
 
 def fun2():
 	
@@ -15,11 +14,10 @@ def fun2():
 
 t1=Thread(target=fun1)
 t1.start()
-t1.name='mythread1'
-print(t1.name)
+print(current_thread().name)
 
 t2=Thread(target=fun2)		
-t2.start()	
-t1.name='mythread2'
-print(t1.name)
+t2.start()
+print(current_thread().name)	
+
 	
