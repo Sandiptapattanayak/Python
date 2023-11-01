@@ -1,13 +1,10 @@
 #Display all individual letter in string forward using sequence
 
-s="Good Morning"
-s1="Good Night"
+s= "Welcome"
+s1="Greeting"
 
 for i in s:
 	print(i)
 
 for j in s1:
-	print(j)
-
-
-		
+	print(j)	
