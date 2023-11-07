@@ -1,4 +1,4 @@
-#wap take string from keyboad a convert to lower case  to upper case
+#Converting lower case into upper case
 
 print("Enter the string")
 s=input()
