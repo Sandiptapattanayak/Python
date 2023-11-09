@@ -1,7 +1,7 @@
 ##Predefined function(extend())
 
 L=[10,20,30,'hi','python',12.34]
-L.extend('ram is a good boy')
+L.extend('ram')
 print(L)
 
 L1=[80,70,90]

@@ -6,6 +6,7 @@ L=[10,20,30,40,50,'hi','python','True']
 for i in L:
 	print(i)
 
+
 #using index
 for i in range(len(L)):
 	print(L[i])	
