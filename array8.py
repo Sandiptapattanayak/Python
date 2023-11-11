@@ -1,4 +1,4 @@
-#Displaying elements of array
+#2D Array
 
 from numpy import *
 
