@@ -1,4 +1,3 @@
-
 #take input from keyboad and display it
 
 print("Enter the tuple")
