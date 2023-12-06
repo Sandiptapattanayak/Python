@@ -3,4 +3,4 @@
 print("Enter the tuple")
 t=eval(input())
 print(t)
-print(typr(t))
+print(type(t))
